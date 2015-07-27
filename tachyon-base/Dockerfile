@@ -1,5 +1,5 @@
 FROM java:latest
-
+MAINTAINER David Zhu
 # Get Tachyon from github release`.
 RUN mkdir -p /opt && \
     cd /opt && \
